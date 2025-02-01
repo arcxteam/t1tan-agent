@@ -87,15 +87,3 @@ Here’s the step-by-step tutorial for setting up the **Titan Network Galileo Te
 - Currently, the node can only be run in the **China region**. Support for other regions will be announced soon.
 - For more detailed instructions, refer to the official documentation:
   [Titan Network Galileo Testnet Guide](https://titannet.gitbook.io/titan-network-en/galileo-testnet/node-participation-guide/run-titan-agent-on-linux).
-
----
-
-### **Example Tweet**:
-"🚀 Just set up my **Titan Network Galileo Testnet Node**! 🌐 Here’s how:  
-1. Prepare your Kepler Wallet & get your key.  
-2. Install dependencies (Snap & Multipass).  
-3. Download & extract the installation package.  
-4. Run the node with your key.  
-5. Verify your node status on the dashboard.  
-Note: Currently available for the China region only.  
-Check out the full guide here: https://titannet.gitbook.io/titan-network-en/galileo-testnet/node-participation-guide/run-titan-agent-on-linux #Blockchain #Testnet #TitanNetwork"
