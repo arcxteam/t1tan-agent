@@ -65,9 +65,10 @@ Here’s the step-by-step tutorial for setting up the **Titan Network Galileo Te
    ```
 3. **Run the agent** by replacing `<your-key>` with the key you copied earlier:
    ```bash
-   ./agent --working-dir=/opt/titanagent --server-url=https://test4-api.titannet.io --key=<your-key>
+   sudo chmod +x agent
+   ./agent --working-dir=/opt/titanagent --server-url=https://test4-api.titannet.io --key=YOUR_ACTUAL_KEY
    ```
-   **Note**: Make sure to replace `<your-key>` with your actual key.
+   **Note**: Make sure to replace `<your-key>` with your actual key on https://test4.titannet.io/walletManagement
 
 4. **Copy your Node ID** displayed after running the command.
 
