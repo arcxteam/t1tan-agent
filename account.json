@@ -1,0 +1,16 @@
+[
+  {
+    "email": "xxxxxxx@gmail.com",
+    "password": "xxxxxxxx",
+    "accessToken": "eyJhbGciOiJIxxxxxxxxx8I3pQxxxxxx_ogHg0",
+    "refreshToken": "eyJhbGxxxxxxxxxxxpXVCJxxxxxxxxxxxxs4",
+    "userId": "xxxxxxxxx"
+  },
+  {
+    "email": "xxxxxx@example.com",
+    "password": "password",
+    "accessToken": "jwt_access",
+    "refreshToken": "jwt_refresh",
+    "userId": "userid"
+  }
+]
