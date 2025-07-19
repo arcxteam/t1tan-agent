@@ -1,0 +1,6 @@
+{
+  "BASE_URL": "https://task.titannet.io",
+  "WS_URL": "wss://task.titannet.io/api/public/websockets/ws",
+  "WORKLOAD_URL": "https://exts.titannet.io:30880/",
+  "USER_AGENT": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" // Dummy seperti extension Chrome
+}
