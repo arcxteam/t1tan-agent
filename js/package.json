@@ -1,1 +1,23 @@
-s
+{
+  "name": "titan-browser",
+  "version": "1.0.0",
+  "description": "TitanNet Node Extentions",
+  "main": "tntnode.js",
+  "scripts": {
+    "start": "node tntnode.js",
+    "lint": "eslint ."
+  },
+  "author": "CUANNODE by 0xgrey",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.0",
+    "https-proxy-agent": "^7.0.5",
+    "random-useragent": "^0.5.1",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}
