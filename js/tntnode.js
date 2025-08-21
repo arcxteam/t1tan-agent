@@ -5,7 +5,7 @@ const axios = require('axios');
 const WebSocket = require('ws');
 const { v4: uuidv4 } = require('uuid');
 const { HttpsProxyAgent } = require('https-proxy-agent');
-const randomUseragent = require('random-useragent');
+const UserAgent = require('user-agents');
 
 const colors = {
     reset: "\x1b[0m",
@@ -129,7 +129,7 @@ class TitanNode {
                 'Accept': '*/*',
                 'Accept-Language': 'en-US,en;q=0.9',
                 'Content-Type': 'application/json',
-                'User-Agent': randomUseragent.getRandom(),
+                'User-Agent': new UserAgent().toString(),
             },
         });
 
@@ -208,7 +208,7 @@ class TitanNode {
         this.ws = new WebSocket(wsUrl, {
             agent: agent,
             headers: {
-                'User-Agent': this.api.defaults.headers['User-Agent'],
+                'User-Agent': new UserAgent().toString(),
             },
         });
 
